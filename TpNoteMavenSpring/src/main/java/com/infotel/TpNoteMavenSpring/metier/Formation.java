@@ -1,5 +1,8 @@
 package com.infotel.TpNoteMavenSpring.metier;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Formation {
 private int idFormation;
 private String nomFormation;

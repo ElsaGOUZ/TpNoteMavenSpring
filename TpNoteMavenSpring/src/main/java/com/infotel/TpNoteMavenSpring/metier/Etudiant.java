@@ -1,5 +1,8 @@
 package com.infotel.TpNoteMavenSpring.metier;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Etudiant {
 private int idEtudiant;
 private String nom;

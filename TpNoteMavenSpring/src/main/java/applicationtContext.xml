@@ -16,7 +16,7 @@
 	</bean>
 
 	<bean id="devl" class="com.infotel.TpNoteMavenSpring.metier.Devlogiciel">
-		<property name="chefdeveloppeur" ref="dev" />
+		<property name="chefDeveloppeur" ref="dev" />
 	</bean>
 	
 <!-- On va utiliser des annotations -->
